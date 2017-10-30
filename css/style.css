@@ -229,7 +229,7 @@ body, html {
   .popular-topics-text .img-wrapper .orange-box {
     position: absolute;
     top: 0;
-    right: 2px;
+    right: 3px;
     width: 135px;
     height: 42px;
     background-color: #ff9600;
@@ -254,84 +254,6 @@ body, html {
   margin-top: 20px;
   padding-left: 3px; }
 .popular-topics-text p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #4b4b4b;
-  text-align: left;
-  padding-left: 3px; }
-
-.popular-topics-text2 a {
-  text-decoration: none; }
-.popular-topics-text2 .img-wrapper {
-  position: relative; }
-  .popular-topics-text2 .img-wrapper .orange-box {
-    position: absolute;
-    top: 0;
-    right: 4px;
-    width: 135px;
-    height: 42px;
-    background-color: #ff9600;
-    display: table; }
-    .popular-topics-text2 .img-wrapper .orange-box .orange-box-text {
-      display: table-cell;
-      vertical-align: middle; }
-      .popular-topics-text2 .img-wrapper .orange-box .orange-box-text a {
-        color: #fff;
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: 500;
-        text-transform: capitalize;
-        margin-top: 5px; }
-.popular-topics-text2 h5 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  color: #4b4b4b;
-  text-align: left;
-  margin-top: 20px;
-  padding-left: 3px; }
-.popular-topics-text2 p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #4b4b4b;
-  text-align: left;
-  padding-left: 3px; }
-
-.popular-topics-text3 a {
-  text-decoration: none; }
-.popular-topics-text3 .img-wrapper {
-  position: relative; }
-  .popular-topics-text3 .img-wrapper .orange-box {
-    position: absolute;
-    top: 1px;
-    right: 2px;
-    width: 135px;
-    height: 42px;
-    background-color: #ff9600;
-    display: table; }
-    .popular-topics-text3 .img-wrapper .orange-box .orange-box-text {
-      display: table-cell;
-      vertical-align: middle; }
-      .popular-topics-text3 .img-wrapper .orange-box .orange-box-text a {
-        color: #fff;
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: 500;
-        text-transform: capitalize;
-        margin-top: 5px; }
-.popular-topics-text3 h5 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  color: #4b4b4b;
-  text-align: left;
-  margin-top: 20px;
-  padding-left: 3; }
-.popular-topics-text3 p {
   font-family: 'Work Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
