@@ -1,0 +1,348 @@
+/************************************************************
+
+					     PROMENLJIVE
+
+************************************************************/
+/************************************************************
+
+						  GENERAL
+
+************************************************************/
+::selection {
+  background: #ff9600 !important;
+  color: #fff !important; }
+
+::-moz-selection {
+  background: #CCB08E !important;
+  color: #fff !important; }
+
+body, html {
+  height: 100%;
+  padding: 0; }
+
+.img-responsive {
+  width: 100%;
+  height: 100%; }
+
+.scroller {
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.container {
+  width: 1200px;
+  padding-left: 0;
+  padding-right: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+/************************************************************
+
+						  HEADER
+
+************************************************************/
+[class*="telefon-mail"] {
+  padding-left: 0;
+  padding-right: 0; }
+
+[class*="social"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.full1 {
+  width: 100%;
+  height: 60px;
+  background-color: #fff; }
+  .full1 .container {
+    background-color: #fff; }
+    .full1 .container .row .telefon-mail ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 18px;
+      display: block; }
+      .full1 .container .row .telefon-mail ul li {
+        display: inline-block; }
+        .full1 .container .row .telefon-mail ul li a {
+          text-decoration: none;
+          font-family: 'Work Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #ff9600;
+          transition: all .5s ease; }
+          .full1 .container .row .telefon-mail ul li a i {
+            margin-right: 10px; }
+          .full1 .container .row .telefon-mail ul li a:hover {
+            color: #000; }
+
+.social ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 18px; }
+  .social ul li {
+    display: inline-block; }
+    .social ul li a {
+      text-decoration: none;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ff9600;
+      transition: all .5s ease; }
+      .social ul li a i {
+        margin-right: 10px; }
+      .social ul li a:hover {
+        color: #000; }
+
+/************************************************************
+
+				BACKGROUND I NAVIGACIJA
+
+************************************************************/
+.home-cover {
+  position: relative; }
+
+.nav-sa-slikom {
+  position: absolute;
+  top: -598px;
+  width: 100%; }
+
+#eng {
+  float: right; }
+
+#srb {
+  float: right; }
+
+[class*="bg-list"] {
+  padding-left: 0;
+  padding-right: 0; }
+
+[class*="bg-tour"] {
+  padding-left: 0;
+  padding-right: 0; }
+
+.bg-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 30px; }
+  .bg-list ul li {
+    display: inline-block; }
+    .bg-list ul li a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: "Poppins" , sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      transition: all .5s ease; }
+      .bg-list ul li a span {
+        font-weight: 400;
+        font-size: 12px;
+        text-transform: capitalize;
+        vertical-align: middle;
+        margin-right: 3px; }
+      .bg-list ul li a:hover {
+        color: #ff9600; }
+
+.forma {
+  position: absolute;
+  width: 100%;
+  top: -405px; }
+
+.naslov h1 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin-top: 0; }
+.naslov h3 {
+  color: #ff9600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 40px; }
+
+.form-group1 select {
+  width: 200px;
+  height: 45px;
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: capitalize;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  outline-color: transparent; }
+  .form-group1 select:focus {
+    border-color: transparent; }
+  .form-group1 select option option:hover {
+    background-color: red; }
+.form-group1 button {
+  width: 140px;
+  height: 38px;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #ff9600;
+  border: none;
+  margin-bottom: 3px;
+  text-transform: capitalize;
+  transition: all .5s ease;
+  border: 1px solid transparent;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+  .form-group1 button:hover {
+    background-color: #fff;
+    color: #4b4b4b; }
+
+/************************************************************
+
+						  POPULAR
+
+************************************************************/
+.naslov2 {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 30px; }
+
+[class*="one"] {
+  padding-left: 0; }
+
+[class*="two"] {
+  padding-left: 7px;
+  padding-right: 7px; }
+
+[class*="three"] {
+  padding-right: 0; }
+
+.popular-topics-text a {
+  text-decoration: none; }
+.popular-topics-text .img-wrapper {
+  position: relative; }
+  .popular-topics-text .img-wrapper .orange-box {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 135px;
+    height: 42px;
+    background-color: #ff9600;
+    display: table; }
+    .popular-topics-text .img-wrapper .orange-box .orange-box-text {
+      display: table-cell;
+      vertical-align: middle; }
+      .popular-topics-text .img-wrapper .orange-box .orange-box-text a {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-top: 5px; }
+.popular-topics-text h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #4b4b4b;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 3px; }
+.popular-topics-text p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b4b4b;
+  text-align: left;
+  padding-left: 3px; }
+
+.popular-topics-text2 a {
+  text-decoration: none; }
+.popular-topics-text2 .img-wrapper {
+  position: relative; }
+  .popular-topics-text2 .img-wrapper .orange-box {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    width: 135px;
+    height: 42px;
+    background-color: #ff9600;
+    display: table; }
+    .popular-topics-text2 .img-wrapper .orange-box .orange-box-text {
+      display: table-cell;
+      vertical-align: middle; }
+      .popular-topics-text2 .img-wrapper .orange-box .orange-box-text a {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-top: 5px; }
+.popular-topics-text2 h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #4b4b4b;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 3px; }
+.popular-topics-text2 p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b4b4b;
+  text-align: left;
+  padding-left: 3px; }
+
+.popular-topics-text3 a {
+  text-decoration: none; }
+.popular-topics-text3 .img-wrapper {
+  position: relative; }
+  .popular-topics-text3 .img-wrapper .orange-box {
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    width: 135px;
+    height: 42px;
+    background-color: #ff9600;
+    display: table; }
+    .popular-topics-text3 .img-wrapper .orange-box .orange-box-text {
+      display: table-cell;
+      vertical-align: middle; }
+      .popular-topics-text3 .img-wrapper .orange-box .orange-box-text a {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-top: 5px; }
+.popular-topics-text3 h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #4b4b4b;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 3; }
+.popular-topics-text3 p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4b4b4b;
+  text-align: left;
+  padding-left: 3px; }
+
+/************************************************************
+
+						MEGAMENU
+
+************************************************************/
+
+/*# sourceMappingURL=style.css.map */
