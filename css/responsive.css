@@ -607,7 +607,28 @@
     font-weight: 400;
     color: #4b4b4b;
     text-align: left;
-    padding-left: 3px; } }
+    padding-left: 3px; }
+
+  /************************************************************
+  
+  					   DRIVEME TOUR
+  
+  ************************************************************/
+  .blank {
+    display: none; }
+
+  .drive-me {
+    top: -460px; }
+
+  .drive-me-tour .naslov3 h2 {
+    margin-bottom: 15px; }
+
+  .drive-me-car .img-wrapper2 img {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .drive-me-car button {
+    width: 120px;
+    height: 40px; } }
 @media (min-width: 992px) and (max-width: 1215px) {
   /************************************************************
   
@@ -665,7 +686,15 @@
     font-weight: 400;
     color: #4b4b4b;
     text-align: left;
-    padding-left: 3px; } }
+    padding-left: 3px; }
+
+  /************************************************************
+  
+  					   DRIVEME TOUR
+  
+  ************************************************************/
+  .drive-me-tour .naslov3 h2 {
+    margin-bottom: 20px; } }
 @media (min-width: 1216px) {
   #trigger {
     display: none; } }

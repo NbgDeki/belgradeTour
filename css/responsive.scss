@@ -752,8 +752,38 @@ p{
 }
 }
 
+/************************************************************
 
+					   DRIVEME TOUR
 
+************************************************************/
+
+.blank{
+	display: none;
+}
+.drive-me{
+	top: -460px;
+}
+.drive-me-tour{
+	.naslov3{
+	h2{
+		margin-bottom: 15px;
+	}
+}
+}
+.drive-me-car{
+	.img-wrapper2{
+		img{
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+
+		}
+		button{
+			width: 120px;
+			height: 40px;
+	}
+}
 }
 
 
@@ -835,6 +865,19 @@ p{
 }
 }
 
+/************************************************************
+
+					   DRIVEME TOUR
+
+************************************************************/
+
+.drive-me-tour{
+	.naslov3{
+	h2{
+		margin-bottom: 20px;
+	}
+}
+}
 }
 
 

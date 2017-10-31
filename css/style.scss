@@ -344,6 +344,7 @@ p{
 ************************************************************/
 .home-cover2{
 	position: relative;
+	
 }
 .drive-me{
 	position: absolute;
@@ -385,7 +386,7 @@ p{
 			
 	}
 	.icon-text{
-		width: 90%;
+		// width: 90%;
 		display: inline-block;
 		p{
 			font-family: 'Work Sans', sans-serif;
@@ -410,11 +411,11 @@ p{
 	justify-content: center;
 	align-items: center;
 	.img-wrapper2{
-		
 		img{
 			margin-bottom: 30px;
 		}
-		button{
+	}
+	button{
 			width: 140px;
 			height: 45px;
 			background-color: $orange;
@@ -429,6 +430,5 @@ p{
 				background-color: $white;
 			}
 		}
-	}
 }
 
