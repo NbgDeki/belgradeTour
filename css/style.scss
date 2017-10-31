@@ -442,6 +442,7 @@ p{
 ************************************************************/
 [class*="slide"]{
 	padding-left: 0;
+	padding-right: 0;
 }
 .bx-wrapper .bx-controls-direction a{
 	top: -26px;
@@ -450,7 +451,7 @@ p{
 	left: 705px;
 }
 .bx-wrapper .bx-next{
-	right: 0;
+	right: 0px;
 }
 .bx-wrapper{
 	border: none;
@@ -469,7 +470,10 @@ p{
 		}
 	}
 	ul{
+		list-style: none;
+		padding-left: 0;
 		li{
+			padding-left: 0;
 		.slider-wrapper{
 				background-color: $lightGray;
 				width: 380px;
@@ -510,4 +514,39 @@ p{
 		}
 	}
 }
+[class*="latest-posts"]{
+	padding-right: 0;
+}
+.post{
+	.post-slika{
+		margin-right: 19px;
+		display: inline-block;
+		float: left;
+		img{
+
+		}
+	}
+	.post-tekst{
+		display: inline-block;
+		float: left;
+		h5{
+			margin-bottom: 19px;
+			font-family: 'Poppins', sans-serif;
+			font-size: 14px;
+			font-weight: 300;
+			color: $darkGray;
+		}
+		button{
+			font-family: 'Poppins', sans-serif;
+			width: 45px;
+			height: 31px;
+			font-size: 12px;
+			font-weight: 300;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}
+
 
