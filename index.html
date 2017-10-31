@@ -40,6 +40,31 @@
 		<!-- <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css"> -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
 
+		<!-- BX slider -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  		crossorigin="anonymous"></script>
+  		<script src="js/modernizr.custom.js"></script>
+		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	    <script>
+		    $(document).ready(function(){
+		      $('.bxslider').bxSlider({
+					  
+					  slideWidth: 800,
+					  slideMargin: 10,
+					  minSlides: 1,
+					  pager: false,
+					  touchEnabled: true,
+					  adaptiveHeight: true,
+					  prevText: '',
+  					  nextText: '',
+					});
+		    });
+	    </script>
+
 		<!-- owl carousel CSS -->
 		<!-- <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css"> -->
@@ -58,15 +83,6 @@
 
 		<!-- responsive CSS -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-
-		
-
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.2.1.js"
-  		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  		crossorigin="anonymous"></script>
-  		<script src="js/modernizr.custom.js"></script>
 
 	</head>
 	<body>
@@ -475,6 +491,102 @@
 			</div>
 		</div>
 		</div>
+</section>
+
+<section id="bx-slider">
+	<div class="container">
+		<div class="row" style="margin-top: 95px; position: relative;">
+			<div class="col-md-8 slide">
+				<div class="pt"><h4>Popular Topics</h4></div>
+				<ul id="double" class="bxslider">
+					<li>
+						<div class="slider-wrapper" style="margin-right: 12px">
+							<img src="img/popular/1.jpg" alt="">
+							<div class="text-box2">
+							<h5>There are restoraunts, on top of restoraunts</h5>
+							<h6>Food</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+							</div>
+						</div>
+						<div class="slider-wrapper" style="margin-left: 12px">
+							<img src="img/popular/2.jpg" alt="">
+							<div class="text-box2">
+							<h5>Belgrade street art</h5>
+							<h6>Food</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						</div>
+						<div class="slider-wrapper" style="margin-right: 12px">
+							<img src="img/popular/3.jpg" alt="">
+							<div class="text-box2">
+							<h5>Belgrade has tons of history</h5>
+							<h6>Explore</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						</div>
+						<div class="slider-wrapper" style="margin-left: 12px">
+							<img src="img/popular/7.jpg" alt="">
+							<div class="text-box2">
+							<h5>There are restoraunts, on top of restoraunts</h5>
+							<h6>Food</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						</div>
+					</li>
+					<li>
+						<div class="slider-wrapper" style="margin-right: 12px">
+							<img src="img/popular/1.jpg" alt="">
+							<div class="text-box2">
+							<h5>There are restoraunts, on top of restoraunts</h5>
+							<h6>Food</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+							</div>
+						</div>
+						<div class="slider-wrapper" style="margin-left: 12px">
+							<img src="img/popular/2.jpg" alt="">
+							<div class="text-box2">
+							<h5>Belgrade street art</h5>
+							<h6>Food</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						</div>
+						<div class="slider-wrapper" style="margin-right: 12px">
+							<img src="img/popular/3.jpg" alt="">
+							<div class="text-box2">
+							<h5>Belgrade has tons of history</h5>
+							<h6>Explore</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						</div>
+						<div class="slider-wrapper" style="margin-left: 12px">
+							<img src="img/popular/7.jpg" alt="">
+							<div class="text-box2">
+							<h5>There are restoraunts, on top of restoraunts</h5>
+							<h6>Food</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+						</div>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</div>
 </section>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

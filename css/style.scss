@@ -9,6 +9,9 @@ $black: #000;
 $white: #fff;
 $orange: #ff9600; 
 $gray: #4b4b4b;
+$lightGray: #f2f2f2;
+$semiGray: #969696;
+$darkGray: #343434;
 
 
 
@@ -344,7 +347,7 @@ p{
 ************************************************************/
 .home-cover2{
 	position: relative;
-	
+
 }
 .drive-me{
 	position: absolute;
@@ -430,5 +433,81 @@ p{
 				background-color: $white;
 			}
 		}
+}
+
+/************************************************************
+
+				 	  BX SLIDER
+
+************************************************************/
+[class*="slide"]{
+	padding-left: 0;
+}
+.bx-wrapper .bx-controls-direction a{
+	top: -26px;
+}
+.bx-wrapper .bx-prev{
+	left: 705px;
+}
+.bx-wrapper .bx-next{
+	right: 0;
+}
+.bx-wrapper{
+	border: none;
+	box-shadow: none;
+}
+
+.slide{
+	.pt{
+		position: absolute;
+		top: -40px;
+		h4{
+			font-family:'Poppins', sans-serif;
+			font-size: 24px;
+			font-weight: 500;
+			color: $darkGray;
+		}
+	}
+	ul{
+		li{
+		.slider-wrapper{
+				background-color: $lightGray;
+				width: 380px;
+				height: auto;
+				display: inline-block;
+				float: left;
+				margin-bottom: 40px;
+				img{
+
+				}
+				.text-box2{
+					width: 360px;
+					height: 220px;
+					margin-left: 20px;
+					margin-top: 20px;
+				h5{
+					font-family: 'Poppins', sans-serif;
+					font-size: 22px;
+					font-weight: 500;
+					color: $gray;
+					margin-bottom: 20px;	
+				}
+				h6{
+					font-family: 'Work Sans', sans-serif;
+					font-size: 18px;
+					font-weight: 400;
+					color: $orange;
+					margin-bottom: 20px;
+				}
+				p{
+					font-family: 'Work Sans', sans-serif;
+					font-size: 16px;
+					font-weight: 400;
+					color: $semiGray;
+				}
+				}
+			}
+		}
+	}
 }
 
