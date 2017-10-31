@@ -247,9 +247,10 @@ body, html{
 		margin-bottom: 3px;
 		text-transform: capitalize;
 		transition: all .5s ease;
-		border: 1px solid transparent;
+		border: 1px solid $orange;
 		padding-top: 0px;
 		padding-bottom: 0px;
+
 		&:hover{
 			background-color: $white;
 			// border: 1px solid $orange;
@@ -277,8 +278,8 @@ body, html{
 	padding-left: 0;
 }
 [class*="two"]{
-	padding-left: 7px;
-	padding-right: 7px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
 }
 [class*="three"]{
 	padding-right: 0;
@@ -336,12 +337,98 @@ p{
 }
 
 
-
-
-
 /************************************************************
 
-						MEGAMENU
+				 	    DRIVEME TOUR
 
 ************************************************************/
+.home-cover2{
+	position: relative;
+}
+.drive-me{
+	position: absolute;
+	top: -440px;
+}
+[class*="blank"]{
+	padding-left: 0;
+	padding-right: 7.5px;
+}
+[class*="drive-me-tour"]{
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+[class*="drive-me-car"]{
+	padding-left: 7.5px;
+}
+
+.icon-wrapper{
+
+}
+.drive-me-tour{
+
+	.naslov3{
+		h2{
+			font-family: 'Poppins', sans-serif;
+			font-size: 48px;
+			font-weight: 500;
+			text-transform: capitalize;
+			margin-bottom: 40px;
+		}
+	}
+	.icon{
+		display: table-cell;
+		margin-right: 15px;
+		height: 100%;
+		vertical-align: center;
+		}
+		img{
+			
+	}
+	.icon-text{
+		width: 90%;
+		display: inline-block;
+		p{
+			font-family: 'Work Sans', sans-serif;
+			font-weight: 400;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+	}
+}
+// .car-wrapper{
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+.icon-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.drive-me-car{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.img-wrapper2{
+		
+		img{
+			margin-bottom: 30px;
+		}
+		button{
+			width: 140px;
+			height: 45px;
+			background-color: $orange;
+			text-transform: capitalize;
+			font-family: 'Work Sans', sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			transition: all .5s ease;
+			border: 1px solid $orange;
+			&:hover{
+				color: $gray;
+				background-color: $white;
+			}
+		}
+	}
+}
 
