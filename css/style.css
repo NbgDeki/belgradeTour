@@ -439,4 +439,65 @@ body, html {
     .post .post-tekst button:active {
       outline: 0; }
 
+/************************************************************
+
+			    		FOOTER
+
+************************************************************/
+.full2 {
+  width: 100%;
+  height: 405px;
+  background-color: #343434; }
+  .full2 .container {
+    background-color: #343434; }
+    .full2 .container .row .newsletter .logo {
+      margin-top: 30px;
+      margin-bottom: 20px; }
+    .full2 .container .row .newsletter .logo-text {
+      margin-bottom: 50px;
+      width: 90%; }
+      .full2 .container .row .newsletter .logo-text p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 0; }
+    .full2 .container .row .newsletter .newsletter-prijava {
+      margin-bottom: 20px; }
+      .full2 .container .row .newsletter .newsletter-prijava h6 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 20px; }
+      .full2 .container .row .newsletter .newsletter-prijava p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 0; }
+    .full2 .container .row .newsletter .newsletter-email {
+      position: relative; }
+      .full2 .container .row .newsletter .newsletter-email .form-control {
+        width: 220px;
+        height: 45px; }
+      .full2 .container .row .newsletter .newsletter-email button {
+        width: 105px;
+        height: 43px;
+        position: absolute;
+        top: 1px;
+        right: 49px;
+        text-transform: uppercase;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        background-color: #ff9600;
+        border: 1px solid #ff9600;
+        transition: all .5s ease; }
+        .full2 .container .row .newsletter .newsletter-email button:hover {
+          border: 1px solid #4b4b4b;
+          background-color: #fff;
+          color: #4b4b4b; }
+
 /*# sourceMappingURL=style.css.map */

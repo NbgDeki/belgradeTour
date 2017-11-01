@@ -576,4 +576,84 @@ p{
 	}
 }
 
+/************************************************************
+
+			    		FOOTER
+
+************************************************************/
+.full2{
+	width: 100%;
+	height: 405px;
+	background-color: $darkGray;
+	.container{
+		background-color: $darkGray;
+		.row{
+			.newsletter{
+				.logo{
+					margin-top: 30px;
+					margin-bottom: 20px;
+					img{
+
+					}
+				}
+				.logo-text{
+					margin-bottom: 50px;
+					width: 90%;
+					p{
+						font-family: 'Work Sans', sans-serif;
+						font-size: 14px;
+						font-weight: 400;
+						color: $white;
+						margin-bottom: 0;
+					}
+				}
+				.newsletter-prijava{
+					margin-bottom: 20px;
+					h6{
+						font-family: 'Poppins', sans-serif;
+						font-size: 16px;
+						font-weight: 500;
+						text-transform: uppercase;
+						color: $white;
+						margin-bottom: 20px;	
+					}
+					p{
+						font-family: 'Work Sans', sans-serif;
+						font-size: 14px;
+						font-weight: 400;
+						color: $white;
+						margin-bottom: 0;
+					}
+				}
+				.newsletter-email{
+					position: relative;
+					.form-control{
+						width: 220px;
+						height: 45px;
+					}
+					button{
+						width: 105px;
+						height: 43px;
+						position: absolute;
+						top: 1px;
+						right: 49px;
+						text-transform: uppercase;
+						font-family: 'Work Sans', sans-serif;
+						font-size: 14px;
+						font-weight: 400;
+						background-color: $orange;
+						border: 1px solid $orange;
+						transition: all .5s ease;
+						&:hover{
+							border: 1px solid $gray;
+							background-color: $white;
+							color: $gray;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 
