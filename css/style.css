@@ -291,10 +291,8 @@ body, html {
   text-transform: capitalize;
   margin-bottom: 40px; }
 .drive-me-tour .icon {
-  display: table-cell;
   margin-right: 15px;
-  height: 100%;
-  vertical-align: center; }
+  height: 100%; }
 .drive-me-tour .icon-text {
   display: inline-block; }
   .drive-me-tour .icon-text p {
@@ -330,7 +328,7 @@ body, html {
 
 /************************************************************
 
-				 	  BX SLIDER
+			     BX SLIDER I LATEST POSTS
 
 ************************************************************/
 [class*="slide"] {
@@ -372,7 +370,7 @@ body, html {
       margin-bottom: 40px; }
       .slide ul li .slider-wrapper .text-box2 {
         width: 360px;
-        height: 220px;
+        height: 400px;
         margin-left: 20px;
         margin-top: 20px; }
         .slide ul li .slider-wrapper .text-box2 h5 {
@@ -386,7 +384,10 @@ body, html {
           font-size: 18px;
           font-weight: 400;
           color: #ff9600;
-          margin-bottom: 20px; }
+          margin-bottom: 20px;
+          transition: all .5s ease; }
+          .slide ul li .slider-wrapper .text-box2 h6:hover {
+            color: #4b4b4b; }
         .slide ul li .slider-wrapper .text-box2 p {
           font-family: 'Work Sans', sans-serif;
           font-size: 16px;
@@ -396,6 +397,17 @@ body, html {
 [class*="latest-posts"] {
   padding-right: 0; }
 
+.latest-posts {
+  position: relative; }
+  .latest-posts .lp {
+    position: absolute;
+    top: -40px; }
+    .latest-posts .lp h6 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #4b4b4b; }
+
 .post .post-slika {
   margin-right: 19px;
   display: inline-block;
@@ -404,7 +416,7 @@ body, html {
   display: inline-block;
   float: left; }
   .post .post-tekst h5 {
-    margin-bottom: 19px;
+    margin-bottom: 3px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -417,6 +429,14 @@ body, html {
     font-weight: 300;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    background-color: #ff9600;
+    border: 1px solid #ff9600;
+    transition: all .5s ease; }
+    .post .post-tekst button:hover {
+      background-color: #fff;
+      color: #4b4b4b; }
+    .post .post-tekst button:active {
+      outline: 0; }
 
 /*# sourceMappingURL=style.css.map */

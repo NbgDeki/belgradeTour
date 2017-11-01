@@ -380,10 +380,10 @@ p{
 		}
 	}
 	.icon{
-		display: table-cell;
+		// display: table-cell;
 		margin-right: 15px;
 		height: 100%;
-		vertical-align: center;
+		// vertical-align: center;
 		}
 		img{
 			
@@ -437,7 +437,7 @@ p{
 
 /************************************************************
 
-				 	  BX SLIDER
+			     BX SLIDER I LATEST POSTS
 
 ************************************************************/
 [class*="slide"]{
@@ -486,7 +486,7 @@ p{
 				}
 				.text-box2{
 					width: 360px;
-					height: 220px;
+					height: 400px;
 					margin-left: 20px;
 					margin-top: 20px;
 				h5{
@@ -502,6 +502,10 @@ p{
 					font-weight: 400;
 					color: $orange;
 					margin-bottom: 20px;
+					transition: all .5s ease;
+					&:hover{
+						color: $gray;
+					}
 				}
 				p{
 					font-family: 'Work Sans', sans-serif;
@@ -517,6 +521,19 @@ p{
 [class*="latest-posts"]{
 	padding-right: 0;
 }
+.latest-posts{
+	position: relative;
+	.lp{
+		position: absolute;
+		top: -40px;
+		h6{
+			font-family: 'Poppins', sans-serif;
+			font-size: 20px;
+			font-weight: 500;
+			color: $gray;
+		}
+	}
+}
 .post{
 	.post-slika{
 		margin-right: 19px;
@@ -530,7 +547,7 @@ p{
 		display: inline-block;
 		float: left;
 		h5{
-			margin-bottom: 19px;
+			margin-bottom: 3px;
 			font-family: 'Poppins', sans-serif;
 			font-size: 14px;
 			font-weight: 300;
@@ -545,6 +562,16 @@ p{
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			background-color: $orange;
+			border: 1px solid $orange;
+			transition: all .5s ease;
+			&:hover{
+				background-color: $white;
+				color: $gray;
+			}
+			&:active{
+			  outline: 0;
+			}
 		}
 	}
 }
