@@ -450,54 +450,121 @@ body, html {
   background-color: #343434; }
   .full2 .container {
     background-color: #343434; }
-    .full2 .container .row .newsletter .logo {
-      margin-top: 30px;
-      margin-bottom: 20px; }
-    .full2 .container .row .newsletter .logo-text {
-      margin-bottom: 50px;
-      width: 90%; }
-      .full2 .container .row .newsletter .logo-text p {
-        font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        color: #fff;
-        margin-bottom: 0; }
-    .full2 .container .row .newsletter .newsletter-prijava {
-      margin-bottom: 20px; }
-      .full2 .container .row .newsletter .newsletter-prijava h6 {
+    .full2 .container .row .newsletter .newsletter-wrapper {
+      margin-top: 40px; }
+      .full2 .container .row .newsletter .newsletter-wrapper .logo {
+        margin-bottom: 20px; }
+      .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+        margin-bottom: 50px;
+        width: 90%; }
+        .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+          font-family: 'Work Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #fff;
+          margin-bottom: 0; }
+      .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+        margin-bottom: 20px; }
+        .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+          font-family: 'Poppins', sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: #fff;
+          margin-bottom: 20px; }
+        .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+          font-family: 'Work Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #fff;
+          margin-bottom: 0; }
+      .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+        position: relative; }
+        .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+          font-family: 'Poppins', sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          color: #9f9f9f;
+          width: 220px;
+          height: 45px;
+          background-color: #343434;
+          border: 1px solid #fff; }
+        .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+          width: 105px;
+          height: 45px;
+          position: absolute;
+          top: 0;
+          right: 49px;
+          text-transform: uppercase;
+          font-family: 'Work Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          background-color: #ff9600;
+          border: 1px solid #ff9600;
+          transition: all .5s ease; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button:hover {
+            border: 1px solid #4b4b4b;
+            background-color: #fff;
+            color: #4b4b4b; }
+    .full2 .container .row .contact .contact-wrapper {
+      margin-top: 40px;
+      margin-left: 50px; }
+      .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 500;
-        text-transform: uppercase;
         color: #fff;
-        margin-bottom: 20px; }
-      .full2 .container .row .newsletter .newsletter-prijava p {
-        font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        color: #fff;
-        margin-bottom: 0; }
-    .full2 .container .row .newsletter .newsletter-email {
-      position: relative; }
-      .full2 .container .row .newsletter .newsletter-email .form-control {
-        width: 220px;
-        height: 45px; }
-      .full2 .container .row .newsletter .newsletter-email button {
-        width: 105px;
-        height: 43px;
-        position: absolute;
-        top: 1px;
-        right: 49px;
         text-transform: uppercase;
-        font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        background-color: #ff9600;
-        border: 1px solid #ff9600;
-        transition: all .5s ease; }
-        .full2 .container .row .newsletter .newsletter-email button:hover {
-          border: 1px solid #4b4b4b;
-          background-color: #fff;
-          color: #4b4b4b; }
+        margin-bottom: 35px; }
+      .full2 .container .row .contact .contact-wrapper .contact-details ul {
+        list-style: none;
+        padding-left: 0; }
+        .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+          text-decoration: none; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 15px;
+            color: #ff9600;
+            transition: all .5s ease; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+              color: #fff; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              margin-bottom: 15px;
+              color: #fff;
+              transition: all .5s ease; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                color: #ff9600; }
+    .full2 .container .row .contact .contact-social ul {
+      list-style: none;
+      padding-left: 0; }
+      .full2 .container .row .contact .contact-social ul li {
+        display: inline-block; }
+        .full2 .container .row .contact .contact-social ul li a {
+          text-decoration: none; }
+          .full2 .container .row .contact .contact-social ul li a i {
+            font-size: 22px;
+            font-weight: 500;
+            margin-right: 20px;
+            color: #fff;
+            transition: all .5s ease; }
+            .full2 .container .row .contact .contact-social ul li a i:hover {
+              color: #ff9600; }
+    .full2 .container .row .instagram .instagram-wrapper {
+      margin-top: 40px;
+      margin-left: 60px; }
+      .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
