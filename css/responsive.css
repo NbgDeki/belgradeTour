@@ -1,3 +1,9 @@
+@media (max-width: 459px) {
+  .container {
+    max-width: 380px !important; }
+
+  .bg-tour {
+    display: none; } }
 @media (min-width: 460px) and (max-width: 503px) {
   /************************************************************
   
@@ -7,7 +13,7 @@
   .container {
     max-width: 460px !important; }
 
-  	/************************************************************
+  /************************************************************
   
   						GENERAL
   

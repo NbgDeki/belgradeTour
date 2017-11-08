@@ -2,7 +2,18 @@ $black: #000;
 $white: #fff;
 $orange: #ff9600; 
 $gray: #4b4b4b;
-
+$lightGray: #f2f2f2;
+$semiGray: #969696;
+$darkGray: #343434;
+$emailGray: #9f9f9f;
+@media(max-width: 459px){
+	.container{
+		max-width: 380px !important;
+	}
+	.bg-tour{
+		display: none;
+	}
+}
 @media(min-width: 460px) and (max-width: 503px){
 
 /************************************************************
@@ -13,7 +24,7 @@ $gray: #4b4b4b;
 	.container{
 		max-width: 460px !important;
 	}
-	/************************************************************
+/************************************************************
 
 						GENERAL
 

@@ -370,7 +370,7 @@ body, html {
       margin-bottom: 40px; }
       .slide ul li .slider-wrapper .text-box2 {
         width: 360px;
-        height: 400px;
+        min-height: 400px;
         margin-left: 20px;
         margin-top: 20px; }
         .slide ul li .slider-wrapper .text-box2 h5 {
