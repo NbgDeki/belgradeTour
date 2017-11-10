@@ -1,9 +1,434 @@
-@media (max-width: 459px) {
+@media (max-width: 380px) {
+  /************************************************************
+  
+  						GENERAL
+  
+  ************************************************************/
   .container {
-    max-width: 380px !important; }
+    max-width: 300px !important; }
+
+  /************************************************************
+  
+  			      BACKGROUND I NAVIGACIJA
+  
+  ************************************************************/
+  .telefon-mail > ul > li:last-child {
+    margin-left: 18px !important; }
 
   .bg-tour {
-    display: none; } }
+    display: none; }
+
+  #trigger {
+    font-size: 22px; }
+
+  .forma {
+    top: -475px; }
+
+  /************************************************************
+  
+  					   POPULAR
+  
+  ************************************************************/
+  [class*="one"] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0 !important; }
+
+  [class*="two"] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0 !important; }
+
+  [class*="three"] {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0 !important; }
+
+  .popular-topics-text-box {
+    width: 300px !important;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: auto;
+    margin: 0 auto; }
+
+  .popular-topics-text {
+    height: auto; }
+    .popular-topics-text a {
+      text-decoration: none; }
+    .popular-topics-text .img-wrapper {
+      position: relative; }
+      .popular-topics-text .img-wrapper .orange-box {
+        position: absolute;
+        top: 0;
+        right: 0px !important;
+        width: 135px;
+        height: 42px;
+        background-color: #ff9600;
+        display: table; }
+        .popular-topics-text .img-wrapper .orange-box .orange-box-text {
+          display: table-cell;
+          vertical-align: middle; }
+          .popular-topics-text .img-wrapper .orange-box .orange-box-text a {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: capitalize;
+            margin-top: 5px; }
+    .popular-topics-text h5 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: #4b4b4b;
+      text-align: left;
+      margin-top: 20px;
+      padding-left: 3px; }
+    .popular-topics-text p {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #4b4b4b;
+      text-align: left;
+      padding-left: 3px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  [class*="contact"] {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 190px !important;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 0 !important; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              width: 90px;
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 3px !important;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
+@media (min-width: 381px) and (max-width: 459px) {
+  /************************************************************
+  
+  						GENERAL
+  
+  ************************************************************/
+  .container {
+    max-width: 370px !important; }
+
+  .bg-tour {
+    display: none; }
+
+  .forma {
+    top: -475px; }
+
+  /************************************************************
+  
+  					   POPULAR
+  
+  ************************************************************/
+  .img-fluid {
+    max-width: 90%; }
+
+  [class*="one"] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0 !important; }
+
+  [class*="two"] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0 !important; }
+
+  [class*="three"] {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0 !important; }
+
+  .popular-topics-text-box {
+    width: 333px !important;
+    height: auto;
+    margin: 0 auto; }
+
+  .popular-topics-text {
+    height: auto; }
+    .popular-topics-text a {
+      text-decoration: none; }
+    .popular-topics-text .img-wrapper {
+      position: relative; }
+      .popular-topics-text .img-wrapper .orange-box {
+        position: absolute;
+        top: 0;
+        right: 19px !important;
+        width: 135px;
+        height: 42px;
+        background-color: #ff9600;
+        display: table; }
+        .popular-topics-text .img-wrapper .orange-box .orange-box-text {
+          display: table-cell;
+          vertical-align: middle; }
+          .popular-topics-text .img-wrapper .orange-box .orange-box-text a {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: capitalize;
+            margin-top: 5px; }
+    .popular-topics-text h5 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: #4b4b4b;
+      text-align: left;
+      margin-top: 20px;
+      padding-left: 3px; }
+    .popular-topics-text p {
+      font-family: 'Work Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #4b4b4b;
+      text-align: left;
+      padding-left: 3px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 4% !important; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
 @media (min-width: 460px) and (max-width: 503px) {
   /************************************************************
   
@@ -15,19 +440,11 @@
 
   /************************************************************
   
-  						GENERAL
-  
-  ************************************************************/
-  .container {
-    max-width: 490px !important; }
-
-  /************************************************************
-  
   						 HEADER
   
   ************************************************************/
   .full1 {
-    height: 120px; }
+    height: auto; }
     .full1 .telefon-mail {
       text-align: center; }
     .full1 .social {
@@ -108,11 +525,11 @@
 
   .popular-topics-text-box {
     width: 394px !important;
-    height: 261.28px !important;
+    height: auto;
     margin: 0 auto; }
 
   .popular-topics-text {
-    height: 550px !important; }
+    height: auto; }
     .popular-topics-text a {
       text-decoration: none; }
       .popular-topics-text a img {
@@ -152,7 +569,132 @@
       font-weight: 400;
       color: #4b4b4b;
       text-align: left;
-      padding-left: 3px; } }
+      padding-left: 3px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 16%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
 @media (min-width: 504px) and (max-width: 544px) {
   /************************************************************
   
@@ -168,7 +710,7 @@
   
   ************************************************************/
   .full1 {
-    height: 120px; }
+    height: auto; }
     .full1 .telefon-mail {
       text-align: center; }
     .full1 .social {
@@ -249,51 +791,174 @@
 
   .popular-topics-text-box {
     width: 475px;
-    height: 315px;
+    height: auto;
     margin: 0 auto; }
 
-  .popular-topics-text {
-    height: 600px; }
-    .popular-topics-text a {
-      text-decoration: none; }
-      .popular-topics-text a img {
-        width: 475px; }
-    .popular-topics-text .img-wrapper {
-      position: relative; }
-      .popular-topics-text .img-wrapper .orange-box {
-        position: absolute;
-        top: 0;
-        right: 7px !important;
-        width: 135px;
-        height: 42px;
-        background-color: #ff9600;
-        display: table; }
-        .popular-topics-text .img-wrapper .orange-box .orange-box-text {
-          display: table-cell;
-          vertical-align: middle; }
-          .popular-topics-text .img-wrapper .orange-box .orange-box-text a {
-            color: #fff;
+  .popular-topics-text a {
+    text-decoration: none; }
+    .popular-topics-text a img {
+      width: 475px; }
+  .popular-topics-text .img-wrapper {
+    position: relative; }
+    .popular-topics-text .img-wrapper .orange-box {
+      position: absolute;
+      top: 0;
+      right: 7px !important;
+      width: 135px;
+      height: 42px;
+      background-color: #ff9600;
+      display: table; }
+      .popular-topics-text .img-wrapper .orange-box .orange-box-text {
+        display: table-cell;
+        vertical-align: middle; }
+        .popular-topics-text .img-wrapper .orange-box .orange-box-text a {
+          color: #fff;
+          font-family: 'Poppins', sans-serif;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: 500;
+          text-transform: capitalize;
+          margin-top: 5px; }
+  .popular-topics-text h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #4b4b4b;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 3px; }
+  .popular-topics-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+    text-align: left;
+    padding-left: 3px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 4%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
             font-family: 'Poppins', sans-serif;
-            text-decoration: none;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 500;
-            text-transform: capitalize;
-            margin-top: 5px; }
-    .popular-topics-text h5 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 22px;
-      font-weight: 500;
-      color: #4b4b4b;
-      text-align: left;
-      margin-top: 20px;
-      padding-left: 3px; }
-    .popular-topics-text p {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 14px;
-      font-weight: 400;
-      color: #4b4b4b;
-      text-align: left;
-      padding-left: 3px; } }
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
 @media (max-width: 575px) {
   /************************************************************
   
@@ -309,7 +974,7 @@
   
   ************************************************************/
   .full1 {
-    height: 120px; }
+    height: auto; }
     .full1 .telefon-mail {
       text-align: center; }
     .full1 .social {
@@ -390,11 +1055,12 @@
 
   .popular-topics-text-box {
     width: 475px;
-    height: 315px;
-    margin: 0 auto; }
+    height: auto;
+    margin: 0 auto 30px; }
 
   .popular-topics-text {
-    height: 600px; }
+    max-height: auto;
+    min-height: auto; }
     .popular-topics-text a {
       text-decoration: none; }
       .popular-topics-text a img {
@@ -434,7 +1100,132 @@
       font-weight: 400;
       color: #4b4b4b;
       text-align: left;
-      padding-left: 3px; } }
+      padding-left: 3px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 16%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
 @media (min-width: 576px) and (max-width: 767px) {
   /************************************************************
   
@@ -450,7 +1241,7 @@
   
   ************************************************************/
   .full1 {
-    height: 120px; }
+    height: auto; }
     .full1 .telefon-mail {
       text-align: center; }
     .full1 .social {
@@ -507,11 +1298,10 @@
 
   .popular-topics-text-box {
     width: 500px;
-    height: 331.58px;
-    margin: 0 auto; }
+    margin: 0 auto 30px; }
 
   .popular-topics-text {
-    height: 600px; }
+    height: auto; }
     .popular-topics-text a {
       text-decoration: none; }
       .popular-topics-text a img {
@@ -551,7 +1341,132 @@
       font-weight: 400;
       color: #4b4b4b;
       text-align: left;
-      padding-left: 3px; } }
+      padding-left: 3px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 20%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 0px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   /************************************************************
   
@@ -634,8 +1549,133 @@
     margin-bottom: 30px; }
   .drive-me-car button {
     width: 120px;
-    height: 40px; } }
-@media (min-width: 992px) and (max-width: 1215px) {
+    height: 40px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 0; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 13px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 60px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
+@media (min-width: 992px) and (max-width: 1200px) {
   /************************************************************
   
   						GENERAL
@@ -700,9 +1740,137 @@
   
   ************************************************************/
   .drive-me-tour .naslov3 h2 {
-    margin-bottom: 20px; } }
-@media (min-width: 1216px) {
+    margin-bottom: 20px; }
+
+  /************************************************************
+  
+  					     FOOTER
+  
+  ************************************************************/
+  .full2 {
+    width: 100%;
+    height: auto;
+    background-color: #343434; }
+    .full2 .container {
+      background-color: #343434; }
+      .full2 .container .row .newsletter {
+        text-align: center; }
+        .full2 .container .row .newsletter .newsletter-wrapper {
+          margin-top: 40px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo {
+            margin-bottom: 20px; }
+          .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
+            margin-bottom: 50px;
+            width: 100%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava {
+            margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava h6 {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              text-transform: uppercase;
+              color: #fff;
+              margin-bottom: 20px; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-prijava p {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fff;
+              margin-bottom: 0; }
+          .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email {
+            position: relative; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+              font-family: 'Poppins', sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              color: #9f9f9f;
+              width: 220px;
+              height: 45px;
+              background-color: #343434;
+              border: 1px solid #fff;
+              margin-bottom: 30px;
+              margin-left: 13%; }
+            .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
+              right: 120px; }
+      .full2 .container .row .contact {
+        text-align: center; }
+        .full2 .container .row .contact .contact-wrapper {
+          margin-top: 40px;
+          margin-left: 50px; }
+          .full2 .container .row .contact .contact-wrapper .contact-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 35px; }
+          .full2 .container .row .contact .contact-wrapper .contact-details ul {
+            list-style: none;
+            padding-left: 0; }
+            .full2 .container .row .contact .contact-wrapper .contact-details ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a i {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 500;
+                margin-right: 15px;
+                color: #ff9600;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a i:hover {
+                  color: #fff; }
+              .full2 .container .row .contact .contact-wrapper .contact-details ul li a span {
+                display: inline-block; }
+                .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p {
+                  font-family: 'Work Sans', sans-serif;
+                  font-size: 14px;
+                  font-weight: 400;
+                  margin-bottom: 15px;
+                  color: #fff;
+                  transition: all .5s ease; }
+                  .full2 .container .row .contact .contact-wrapper .contact-details ul li a span p:hover {
+                    color: #ff9600; }
+        .full2 .container .row .contact .contact-social ul {
+          list-style: none;
+          padding-left: 0; }
+          .full2 .container .row .contact .contact-social ul li {
+            display: inline-block; }
+            .full2 .container .row .contact .contact-social ul li a {
+              text-decoration: none; }
+              .full2 .container .row .contact .contact-social ul li a i {
+                font-size: 22px;
+                font-weight: 500;
+                margin-right: 20px;
+                color: #fff;
+                transition: all .5s ease; }
+                .full2 .container .row .contact .contact-social ul li a i:hover {
+                  color: #ff9600; }
+      .full2 .container .row .instagram {
+        text-align: center;
+        margin-bottom: 30px; }
+        .full2 .container .row .instagram .instagram-wrapper {
+          margin-top: 40px;
+          margin-left: 60px; }
+          .full2 .container .row .instagram .instagram-wrapper .instagram-heading h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px; }
+
+  .contact-social > ul > li:first-child {
+    margin-left: 5%; } }
+@media (min-width: 1200px) {
   #trigger {
-    display: none; } }
+    display: none; }
+
+  .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email .form-control {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=responsive.css.map */

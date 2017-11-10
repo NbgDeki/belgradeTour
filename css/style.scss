@@ -288,6 +288,9 @@ body, html{
 [class*="three"]{
 	padding-right: 0;
 }
+.popular-topics-text-box{
+	height: auto;
+}
 .popular-topics-text{
 	
 	a{
@@ -584,7 +587,7 @@ p{
 ************************************************************/
 .full2{
 	width: 100%;
-	height: 405px;
+	height: auto;
 	background-color: $darkGray;
 	.container{
 		background-color: $darkGray;
@@ -601,7 +604,7 @@ p{
 				}
 				.logo-text{
 					margin-bottom: 50px;
-					width: 90%;
+					width: 100%;
 					p{
 						font-family: 'Work Sans', sans-serif;
 						font-size: 14px;
@@ -640,13 +643,20 @@ p{
 						height: 45px;
 						background-color: $darkGray;
 						border: 1px solid $white;
+						margin-bottom: 30px;
+						float: left;
+						display: inline-block;
+						margin-left: 13%;
 					}
 					button{
 						width: 105px;
 						height: 45px;
-						position: absolute;
-						top: 0;
-						right: 49px;
+						margin-left: -10px;
+						// position: absolute;
+						// top: 0;
+						// right: 49px;
+						float: left;
+						display: inline-block;
 						text-transform: uppercase;
 						font-family: 'Work Sans', sans-serif;
 						font-size: 14px;

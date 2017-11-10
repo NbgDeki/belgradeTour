@@ -222,6 +222,9 @@ body, html {
 [class*="three"] {
   padding-right: 0; }
 
+.popular-topics-text-box {
+  height: auto; }
+
 .popular-topics-text a {
   text-decoration: none; }
 .popular-topics-text .img-wrapper {
@@ -446,7 +449,7 @@ body, html {
 ************************************************************/
 .full2 {
   width: 100%;
-  height: 405px;
+  height: auto;
   background-color: #343434; }
   .full2 .container {
     background-color: #343434; }
@@ -456,7 +459,7 @@ body, html {
         margin-bottom: 20px; }
       .full2 .container .row .newsletter .newsletter-wrapper .logo-text {
         margin-bottom: 50px;
-        width: 90%; }
+        width: 100%; }
         .full2 .container .row .newsletter .newsletter-wrapper .logo-text p {
           font-family: 'Work Sans', sans-serif;
           font-size: 14px;
@@ -488,13 +491,17 @@ body, html {
           width: 220px;
           height: 45px;
           background-color: #343434;
-          border: 1px solid #fff; }
+          border: 1px solid #fff;
+          margin-bottom: 30px;
+          float: left;
+          display: inline-block;
+          margin-left: 13%; }
         .full2 .container .row .newsletter .newsletter-wrapper .newsletter-email button {
           width: 105px;
           height: 45px;
-          position: absolute;
-          top: 0;
-          right: 49px;
+          margin-left: -10px;
+          float: left;
+          display: inline-block;
           text-transform: uppercase;
           font-family: 'Work Sans', sans-serif;
           font-size: 14px;
